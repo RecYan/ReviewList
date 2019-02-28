@@ -105,12 +105,25 @@
 |--------------------happens-before关系
 |--- 并发关键字
 |-----------------synchronized
-|--------------------底层实现原理
+|--------------------底层实现原理[mintor监视器]
 |--------------------happens-before关系
 |--------------------JMM图示
 |--------------------synchronied优化[缩短锁获取的时间]
 |--------------------CAS原理、问题
-
+|-----------------volatile
+|--------------------底层实现原理[lock指令+缓存一致性]
+|--------------------happens-before关系
+|--------------------JMM图示
+|-----------------原子性：synchronized[mintorEnter、mintorExit保证]
+|-----------------可见性：synchronized、volatile
+|-----------------有序性：synchronized、volatile[插入内存屏障禁止重排序]
+|--- Lock体系
+|-----------------AbstractQueuedSynchronizer(AQS)[同步组件底层]
+|--------------------AQS工作流程[state状态+FIFO同步队列]、可重入概念
+|-----------------ReentrantLock
+|-----------------等待-唤醒机制[Lock+Condition、Synchroied+wait/notify、notifyAll]
+|-----------------Lock VS Synchronied
+|--- 并发容器
 ```
 
 

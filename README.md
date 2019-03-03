@@ -66,6 +66,7 @@
 |-----------------工作流程
 |-----------------优点
 ```
+[jvm体系结构图](https://www.processon.com/view/58b8eb92e4b07fac491c4796?fromnew=1#map)
 <a name="2"></a>
 # java并发 #
 ``` java
@@ -132,7 +133,15 @@
 |--------------------ThreadLocalMap
 |--------------------内存泄漏问题
 |--- 线程池
+|-----------------线程池实现原理、工作流程
+|-----------------线程池构造核心参数[corePoolSize、maximumPoolSize、keepAliveTime、unit、workQueue、threadFactory、handler]
+|-----------------线程池关闭[shutdownnow、shutdown]
+|--- 并发工具类
+|-----------------CountDownLatch
+|-----------------CyclicBarrier
+|-----------------Semaphore
 ```
+[java并发体系结构图](https://www.processon.com/view/5ab5a979e4b0a248b0e026b3?fromnew=1#map)
 <a name="3"></a>
 # 计算机基础 #
 ``` java
@@ -141,3 +150,4 @@
 |-----------------为什么TIME_WAIT状态需要经过2MSL(最大报文段生存时间)才能返回到CLOSE状态
 |-----------------如果已经建立了连接，但是客户端突然出现故障了怎么办[保活计数器]
 ```
+[计算机网络体系结构图](https://www.processon.com/view/55a5db07e4b0e611cd40813d?fromnew=1#outline)

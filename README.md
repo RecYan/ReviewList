@@ -4,6 +4,8 @@
 + [java并发](#2)
 + [计算机基础](#3)
 + [MySQL](#4)
++ [Redis](#5)
++ [ElasticSerach](#6)
 
 
 
@@ -178,5 +180,19 @@
 |-----------------乐观锁[实现原理：数据库版本记录机制]和悲观锁
 |-----------------并发--> 事务[ACID]
 |-----------------简述隔离级别
+|-----------------MVCC实现原理和三种锁算法[Record Lock、Gap Lock、Next-Key Lock]
+|-----------------不可重复读、幻读解决方案
+|---视图
 ```
 [索引体系结构图--javaGuide](https://github.com/Snailclimb/JavaGuide/blob/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/MySQL%20Index.md)
+<a name="5"></a>
+# Redis #
+``` java
+
+
+```
+<a name="6"></a>
+# ElasticSerach #
+``` java
+
+```

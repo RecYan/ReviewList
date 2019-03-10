@@ -188,9 +188,12 @@
 <a name="5"></a>
 # Redis #
 ``` java
-
+|---Redis与Memcache区别
+|---Redis为什么速度快
+|---Redis基本数据结构[String、Hash、list、set、Zset]
 
 ```
+![Redis基本架构](https://i.imgur.com/ewUtFmf.png)
 <a name="6"></a>
 # ElasticSerach #
 ``` java

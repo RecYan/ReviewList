@@ -191,7 +191,10 @@
 |---Redis与Memcache区别
 |---Redis为什么速度快
 |---Redis基本数据结构[String、Hash、list、set、Zset]
-
+|---海量key中查询固定前缀的key[keys --> scan]
+|---Redis实现分布式锁[setNX --> expire --> 改进的set]
+|---Redis异步队列的实现[list -->BLpop --> pub/sub模式 ]
+|---Redis持久化[RDB --> AOF --> 混合式]
 ```
 ![Redis基本架构](https://i.imgur.com/ewUtFmf.png)
 <a name="6"></a>

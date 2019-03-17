@@ -195,6 +195,9 @@
 |---Redis实现分布式锁[setNX --> expire --> 改进的set]
 |---Redis异步队列的实现[list -->BLpop --> pub/sub模式 ]
 |---Redis持久化[RDB --> AOF --> 混合式]
+|---pipe优势
+|---主从同步原理
+|---Redis集群原理[一致性哈希算法]
 ```
 ![Redis基本架构](https://i.imgur.com/ewUtFmf.png)
 <a name="6"></a>

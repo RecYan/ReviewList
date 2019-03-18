@@ -200,8 +200,13 @@
 |---Redis集群原理[一致性哈希算法]
 ```
 ![Redis基本架构](https://i.imgur.com/ewUtFmf.png)
+
 <a name="6"></a>
 # ElasticSerach #
 ``` java
+|---什么是全文检索[倒排索引]、与数据库检索额区别
+
+
 
 ```
+![全文索引](https://i.imgur.com/Szt2AwI.png)

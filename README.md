@@ -205,8 +205,10 @@
 # ElasticSerach #
 ``` java
 |---什么是全文检索[倒排索引]、与数据库检索额区别
-
-
-
+|---ES核心概念[NRT、Cluster、Node、Document、Index、Type、Shard、replica]
+|---ES与传统数据库对比
+|---ES基础分布式架构[扩容方案、负载均衡、节点对等]
+|---横向扩容，若超出极限，如何提升容错率[扩展 replica shard]
+|---容错机制[三步]
 ```
 ![全文索引](https://i.imgur.com/Szt2AwI.png)

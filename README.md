@@ -210,5 +210,7 @@
 |---ES基础分布式架构[扩容方案、负载均衡、节点对等]
 |---横向扩容，若超出极限，如何提升容错率[扩展 replica shard]
 |---容错机制[三步]
+|---分布式文档结构[document核心元数据：_index、_type、_id|doucument id生成方式|document删除内部细节(标记为DELETE,容量超出时 才后天删除)]
+
 ```
 ![全文索引](https://i.imgur.com/Szt2AwI.png)

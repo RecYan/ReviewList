@@ -6,6 +6,7 @@
 + [MySQL](#4)
 + [Redis](#5)
 + [ElasticSerach](#6)
++ [MQ消息中间件](#7)
 
 
 
@@ -214,3 +215,13 @@
 
 ```
 ![全文索引](https://i.imgur.com/Szt2AwI.png)
+<a name="7"></a>
+# MQ消息中间件 #
+``` java
+|--- 为什么要使用MQ[解耦、异步、削峰]
+|--- ActiveMQ、RabbitMQ、RocketMQ、Kafka技术选型
+
+
+
+
+```

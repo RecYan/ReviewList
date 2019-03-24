@@ -7,6 +7,7 @@
 + [Redis](#5)
 + [ElasticSerach](#6)
 + [MQ消息中间件](#7)
++ [Linux](#8)
 
 
 
@@ -223,5 +224,17 @@
 
 
 
+
+```
+![AMQP](https://i.imgur.com/0wrDEV4.png)
+
+<a name="8"></a>
+# Linux #
+``` java
+|---linux架构
+|---如何查找指定的文件[find]
+|---如何检索文件[grep]
+|---如何做日志内容统计[awk]
+|---批量操作文本内容[sed]
 
 ```

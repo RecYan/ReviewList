@@ -18,6 +18,7 @@
 <a name="1"></a>
 # java虚拟机 #
 ``` java
+|--- JVM体系结构
 |--- 运行时数据区域
 |----------程序计数器
 |----------虚拟机栈
@@ -70,6 +71,7 @@
 |-----------------工作流程
 |-----------------优点
 ```
+![jvm](https://i.imgur.com/rrRH73q.png)s
 [jvm体系结构图](https://www.processon.com/view/58b8eb92e4b07fac491c4796?fromnew=1#map)
 <a name="2"></a>
 # java并发 #
@@ -221,7 +223,7 @@
 ``` java
 |--- 为什么要使用MQ[解耦、异步、削峰]
 |--- ActiveMQ、RabbitMQ、RocketMQ、Kafka技术选型
-
+|--- MQ一致性保障
 
 
 

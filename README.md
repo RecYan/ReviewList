@@ -8,7 +8,7 @@
 + [ElasticSerach](#6)
 + [MQ消息中间件](#7)
 + [Linux](#8)
-
++ [java基础](#9)
 
 
 
@@ -131,10 +131,10 @@
 |-----------------等待-唤醒机制[Lock+Condition、Synchroied+wait/notify、notifyAll]
 |-----------------Lock VS Synchronied
 |--- 并发容器
-|-----------------ConcurrentHashMap
+|-----------------ConcurrentHashMap[弱一致性迭代器]
 |--------------------get()、put()、size()
 |--------------------1.8版本与1.8之前版本的对比
-|-----------------CopyOnWriteArrayList
+|-----------------CopyOnWriteArrayList[add、迭代器的弱一致性]
 |-----------------ThreadLocal
 |--------------------ThreadLocalMap
 |--------------------内存泄漏问题
@@ -238,5 +238,13 @@
 |---如何检索文件[grep]
 |---如何做日志内容统计[awk]
 |---批量操作文本内容[sed]
+
+```
+<a name="9"></a>
+# Java基础 #
+``` java
+|---String.inner()、new String()、常量池存储确定的字面量
+
+
 
 ```

@@ -8,7 +8,7 @@
 + [ElasticSerach](#6)
 + [MQ消息中间件](#7)
 + [Linux](#8)
-+ [java基础](#9)
++ [补充](#9)
 
 
 
@@ -241,10 +241,12 @@
 
 ```
 <a name="9"></a>
-# Java基础 #
+# 补充 #
 ``` java
 |---String.inner()、new String()、常量池存储确定的字面量
+|---百亿url布隆过滤器去重
 
 
 
 ```
+![布隆过滤器](https://i.imgur.com/YbhZaUq.jpg)

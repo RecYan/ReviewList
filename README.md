@@ -187,6 +187,7 @@
 |-----------------MVCC实现原理和三种锁算法[Record Lock、Gap Lock、Next-Key Lock]
 |-----------------不可重复读、幻读解决方案
 |---视图
+|---DELETE、TRUNCATE和DROP区别
 ```
 [索引体系结构图--javaGuide](https://github.com/Snailclimb/JavaGuide/blob/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/MySQL%20Index.md)
 <a name="5"></a>
